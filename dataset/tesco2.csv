@@ -6,8 +6,15 @@ milk,beer,rice,chicken
 milk,beer,rice
 milk,beer
 milk,mango
-Milk,Panner,Tea Powder,google
-google,images
-google
-apple,mango,fanta
-apple,mango,fanta
+Milk,Panner,Tea Powder
+Ghee,Coffee Powder
+Lassi,Tea Powder,Butter,Cheese
+Cheese,Tea Powder,Panner,Coffee Powder,Butter,Bread
+Cheese,Yougurt,Coffee Powder,Sugar,Butter,Sweet
+Sugar,Tea Powder,Ghee,Sweet,Panner,Milk
+Sweet,Coffee Powder
+Butter,Ghee,Panner
+Sweet,Tea Powder,Butter,Yougurt,Sugar,Cheese
+Panner,Ghee
+Butter,Ghee,Milk,Cheese
+Bread,Coffee Powder
