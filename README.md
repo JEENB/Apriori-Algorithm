@@ -1,6 +1,6 @@
 # Apriori_CS-2376
 
-Candidate Generation
-minimum support
-minimum confidence
-
+### Team Members 
+1. Jenish Raj Bajracharya
+2. Satpreet Makhija
+3. Nidup Dorji
