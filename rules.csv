@@ -1,0 +1,28 @@
+,Rule,Antecedents,Consequents,Antecedents Support,Consequents Support,Support,Confidence
+0,1,"['Cheese', 'Bread', 'Ghee']",['Coffee Powder'],9,51,8,88.88888888888889
+1,2,"['Cheese', 'Coffee Powder', 'Ghee']",['Bread'],9,40,8,88.88888888888889
+2,3,"['Butter', 'Ghee', 'Lassi']",['Coffee Powder'],11,51,9,81.81818181818181
+3,4,"['Bread', 'Ghee', 'Lassi']",['Coffee Powder'],11,51,9,81.81818181818181
+4,5,"['Coffee Powder', 'Butter', 'Panner']",['Lassi'],11,42,9,81.81818181818181
+5,6,"['Panner', 'Coffee Powder', 'Bread']",['Lassi'],8,42,7,87.5
+6,7,"['Coffee Powder', 'Butter', 'Sweet']",['Lassi'],10,42,8,80.0
+7,8,"['Coffee Powder', 'Butter', 'Bread']",['Tea Powder'],8,41,7,87.5
+8,9,"['Panner', 'Butter', 'Bread']",['Tea Powder'],8,41,7,87.5
+9,10,"['Tea Powder', 'Bread', 'Ghee']",['Coffee Powder'],10,51,8,80.0
+10,11,"['Coffee Powder', 'Tea Powder', 'Ghee']",['Bread'],10,40,8,80.0
+11,12,"['Bread', 'Tea Powder', 'Lassi']",['Coffee Powder'],10,51,8,80.0
+12,13,"['Panner', 'Coffee Powder', 'Bread']",['Tea Powder'],8,41,8,100.0
+13,14,"['Cheese', 'Bread', 'Tea Powder']",['Coffee Powder'],10,51,8,80.0
+14,15,"['Panner', 'Bread', 'Lassi']",['Tea Powder'],11,41,9,81.81818181818181
+15,16,"['Bread', 'Tea Powder', 'Lassi']",['Panner'],10,45,9,90.0
+16,17,"['Cheese', 'Tea Powder', 'Lassi']",['Coffee Powder'],10,51,8,80.0
+17,18,"['Yougurt', 'Butter', 'Lassi']",['Milk'],9,40,8,88.88888888888889
+18,19,"['Yougurt', 'Butter', 'Milk']",['Lassi'],10,42,8,80.0
+19,20,"['Yougurt', 'Milk', 'Lassi']",['Butter'],9,51,8,88.88888888888889
+20,21,"['Yougurt', 'Coffee Powder', 'Bread']",['Ghee'],10,39,8,80.0
+21,22,"['Yougurt', 'Bread', 'Ghee']",['Coffee Powder'],10,51,8,80.0
+22,23,"['Panner', 'Coffee Powder', 'Bread']","['Lassi', 'Tea Powder']",8,18,7,87.5
+23,24,"['Panner', 'Coffee Powder', 'Bread', 'Lassi']",['Tea Powder'],7,41,7,100.0
+24,25,"['Coffee Powder', 'Bread', 'Tea Powder', 'Lassi']",['Panner'],8,45,7,87.5
+25,26,"['Panner', 'Coffee Powder', 'Bread', 'Tea Powder']",['Lassi'],8,42,7,87.5
+26,27,"['Coffee Powder', 'Panner', 'Tea Powder', 'Lassi']",['Bread'],8,40,7,87.5
