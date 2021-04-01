@@ -1,0 +1,143 @@
+                                              Frequent 1 Itemset
+['Butter'] ['Coffee Powder'] ['Cheese'] ['Ghee'] ['Milk'] ['Panner'] ['Sugar'] ['Sweet'] ['Tea Powder'] ['apple'] ['beer'] ['milk'] ['rice']
+
+
+                                              Frequent 2 Itemset
+['Butter', 'Cheese'] ['Ghee', 'Panner'] ['Sugar', 'Sweet'] ['Butter', 'Tea Powder'] ['Cheese', 'Tea Powder'] ['Panner', 'Tea Powder'] ['apple', 'beer'] ['beer', 'milk'] ['beer', 'rice']
+
+
+                                              Frequent 3 Itemset
+['Butter', 'Cheese', 'Tea Powder']
+
+
+                                              Frequent 4 Itemset
+None
+
+
+                                                 Data Summary
+Min Support = 3 
+Confidence = 60.00 % 
+Transactions = 20 
+Items = 69
+
+                                              Association Rules
+================== Rule 1 =============================
+['Butter'] ==> ['Cheese']
+Support = 5
+Condidence = 83.33 %
+
+
+================== Rule 2 =============================
+['Cheese'] ==> ['Butter']
+Support = 5
+Condidence = 100.00 %
+
+
+================== Rule 3 =============================
+['Ghee'] ==> ['Panner']
+Support = 3
+Condidence = 60.00 %
+
+
+================== Rule 4 =============================
+['Panner'] ==> ['Ghee']
+Support = 3
+Condidence = 60.00 %
+
+
+================== Rule 5 =============================
+['Sugar'] ==> ['Sweet']
+Support = 3
+Condidence = 100.00 %
+
+
+================== Rule 6 =============================
+['Sweet'] ==> ['Sugar']
+Support = 3
+Condidence = 75.00 %
+
+
+================== Rule 7 =============================
+['Tea Powder'] ==> ['Butter']
+Support = 3
+Condidence = 60.00 %
+
+
+================== Rule 8 =============================
+['Cheese'] ==> ['Tea Powder']
+Support = 3
+Condidence = 60.00 %
+
+
+================== Rule 9 =============================
+['Tea Powder'] ==> ['Cheese']
+Support = 3
+Condidence = 60.00 %
+
+
+================== Rule 10 =============================
+['Panner'] ==> ['Tea Powder']
+Support = 3
+Condidence = 60.00 %
+
+
+================== Rule 11 =============================
+['Tea Powder'] ==> ['Panner']
+Support = 3
+Condidence = 60.00 %
+
+
+================== Rule 12 =============================
+['apple'] ==> ['beer']
+Support = 3
+Condidence = 75.00 %
+
+
+================== Rule 13 =============================
+['milk'] ==> ['beer']
+Support = 3
+Condidence = 75.00 %
+
+
+================== Rule 14 =============================
+['beer'] ==> ['rice']
+Support = 4
+Condidence = 66.67 %
+
+
+================== Rule 15 =============================
+['rice'] ==> ['beer']
+Support = 4
+Condidence = 100.00 %
+
+
+================== Rule 16 =============================
+['Cheese'] ==> ['Butter', 'Tea Powder']
+Support = 3
+Condidence = 60.00 %
+
+
+================== Rule 17 =============================
+['Tea Powder'] ==> ['Butter', 'Cheese']
+Support = 3
+Condidence = 60.00 %
+
+
+================== Rule 18 =============================
+['Cheese', 'Butter'] ==> ['Tea Powder']
+Support = 3
+Condidence = 60.00 %
+
+
+================== Rule 19 =============================
+['Tea Powder', 'Butter'] ==> ['Cheese']
+Support = 3
+Condidence = 100.00 %
+
+
+================== Rule 20 =============================
+['Cheese', 'Tea Powder'] ==> ['Butter']
+Support = 3
+Condidence = 100.00 %
+
+
